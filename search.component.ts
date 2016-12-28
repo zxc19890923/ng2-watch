@@ -3,10 +3,10 @@ import {Component} from "@angular/core";
 import {Http, Response, URLSearchParams, ResponseOptions} from "@angular/http";
 
 @Component({
-  selector: "my-about",
+  selector: "my-search",
   templateUrl: "./about.html"
 })
-export class AboutComponent {
+export class SearchComponent {
   data:Array<Object>;
   inputVal:string;
   searchVal:string;
