@@ -1,0 +1,6 @@
+<input type="search" [(ngModel)]="searchVal" (keyup)=changeVal($event) name="search" placeholder="请输入查询内容" class="form-control"/>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of data" (click)="changeText(item.name)">
+    {{item.name}}
+  </li>
+</ul>
